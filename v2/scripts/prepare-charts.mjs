@@ -1,0 +1,42 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+const root='../ETF_从原理到配置的入门指南/attachments/';
+const tickers=['VOO','VTI','VT','VXUS','QQQ','QQQM','SCHD','BND','SGOV','VGSH','VGIT','TLT','GLD','EWJ','510300'];
+const windowStart=Date.parse('2006-10-31'),windowEnd=Date.parse('2026-10-30');
+const funds={},validation=[];
+const clipId=s=>s.match(/url\(#([^)]*)\)/)?.[1];
+const points=s=>[...s.matchAll(/[ML]\s*([-\d.]+)\s+([-\d.]+)/g)].map(m=>[+m[1],+m[2]]);
+for(const ticker of tickers){
+ const file=root+'etf-guide-'+ticker.toLowerCase()+'.svg',svg=fs.readFileSync(file,'utf8');
+ const meta=JSON.parse(svg.match(/<dc:description>([\s\S]*?)<\/dc:description>/)[1].replaceAll('&amp;','&'));
+ const paths=[...svg.matchAll(/<path\s+d="([^"]+)"([^>]+)>/g)];
+ const yticks=[...svg.matchAll(/<g id="ytick_\d+">[\s\S]*?<path d="([^"]+)"([^>]+)>[\s\S]*?<!-- ([^>]+) -->/g)].map(m=>({y:points(m[1])[0][1],value:Number(m[3].replaceAll('−','-').replace(/[,%\s]/g,'')),clip:clipId(m[2])}));
+ const extract=color=>{
+  const p=paths.filter(m=>m[2].includes('fill: none')&&m[2].includes('stroke: '+color)&&clipId(m[2])).sort((a,b)=>b[1].length-a[1].length)[0];
+  assert(p,'Missing '+color+' '+ticker);
+  const id=clipId(p[2]),ticks=yticks.filter(t=>t.clip===id);assert(ticks.length>=2);
+  const a=ticks[0],b=ticks.at(-1),scale=(b.value-a.value)/(b.y-a.y);
+  const rect=svg.match(new RegExp('<clipPath id="'+id+'">\\s*<rect x="([^"]+)" y="([^"]+)" width="([^"]+)" height="([^"]+)"'));
+  return points(p[1]).map(([x,y])=>[(x-Number(rect[1]))/Number(rect[3]),a.value+(y-a.y)*scale]);
+ };
+ const total=extract('#2354b0'),price=extract('#8793a1'),drawdown=extract('#c44e45');
+ const stat=meta.stats;
+ assert(Math.abs(total[0][1]-100)<.001);
+ assert(Math.abs(price[0][1]-100)<.001);
+ assert(Math.abs(total.at(-1)[1]-(100+stat.total_return_pct))<.003);
+ assert(Math.abs(price.at(-1)[1]-(100+stat.price_return_pct))<.003);
+ assert(Math.abs(Math.min(...drawdown.map(p=>p[1]))-stat.max_drawdown_pct)<.003,ticker+' drawdown '+Math.min(...drawdown.map(p=>p[1]))+' expected '+stat.max_drawdown_pct);
+ const actualStart=(Date.parse(stat.start)-windowStart)/(windowEnd-windowStart);
+ assert(Math.abs(total[0][0]-actualStart)<1e-6,'Start date / x axis mismatch '+ticker);
+ assert(Math.abs(total.at(-1)[0]-1)<1e-6);
+ const annual=(Math.pow(total.at(-1)[1]/total[0][1],1/((Date.parse(stat.end)-Date.parse(stat.start))/86400000/365.25))-1)*100;
+ assert(Math.abs(annual-stat.cagr_pct)<.003,'CAGR mismatch '+ticker);
+ for(const series of [total,price,drawdown])for(let i=1;i<series.length;i++)assert(series[i][0]>=series[i-1][0]);
+ funds[ticker]={...meta,total,price,drawdown,sourceHash:crypto.createHash('sha256').update(svg).digest('hex')};
+ validation.push({ticker,points:[total.length,price.length,drawdown.length],independentSvgAxisCalibration:true,endpointError:total.at(-1)[1]-100-stat.total_return_pct,drawdownError:Math.min(...drawdown.map(p=>p[1]))-stat.max_drawdown_pct,annualizedError:annual-stat.cagr_pct});
+}
+fs.writeFileSync('src/charts.json',JSON.stringify({windowStart:'2006-10-31',windowEnd:'2026-10-30',funds}));
+fs.writeFileSync('out/chart-validation.json',JSON.stringify(validation,null,2));
+console.log('15 total-return, price-only and drawdown curves calibrated independently against original SVG axis ticks.');
+console.log(validation.map(v=>v.ticker+': '+v.points.join('/')+' points').join('\n'));

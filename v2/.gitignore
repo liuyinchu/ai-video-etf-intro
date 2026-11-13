@@ -1,0 +1,6 @@
+node_modules
+out/
+public/narration/
+public/qa/
+public/*.wav
+.DS_Store

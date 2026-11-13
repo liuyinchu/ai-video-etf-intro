@@ -1,0 +1,318 @@
+{
+  "fps": 30,
+  "bpm": 124,
+  "grid0": 0,
+  "overlap": 0,
+  "engage": 3.87,
+  "cutBars": [
+    0,
+    11,
+    22,
+    34,
+    43,
+    64,
+    84,
+    105,
+    127,
+    147,
+    169,
+    190,
+    213,
+    236,
+    257,
+    279,
+    301,
+    322,
+    343,
+    365
+  ],
+  "lastDur": 870,
+  "total": 22065,
+  "sections": [
+    {
+      "from": 0,
+      "to": 2,
+      "type": "breakdown"
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "type": "build"
+    },
+    {
+      "from": 4,
+      "to": 11,
+      "type": "drop"
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "type": "drop"
+    },
+    {
+      "from": 12,
+      "to": 22,
+      "type": "grooveA"
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "type": "drop"
+    },
+    {
+      "from": 23,
+      "to": 34,
+      "type": "grooveA"
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "type": "drop"
+    },
+    {
+      "from": 35,
+      "to": 43,
+      "type": "grooveA"
+    },
+    {
+      "from": 43,
+      "to": 44,
+      "type": "drop"
+    },
+    {
+      "from": 44,
+      "to": 63,
+      "type": "grooveA2"
+    },
+    {
+      "from": 63,
+      "to": 64,
+      "type": "grooveA2"
+    },
+    {
+      "from": 64,
+      "to": 65,
+      "type": "drop"
+    },
+    {
+      "from": 65,
+      "to": 83,
+      "type": "grooveA2"
+    },
+    {
+      "from": 83,
+      "to": 84,
+      "type": "grooveA2"
+    },
+    {
+      "from": 84,
+      "to": 85,
+      "type": "drop"
+    },
+    {
+      "from": 85,
+      "to": 104,
+      "type": "grooveA2"
+    },
+    {
+      "from": 104,
+      "to": 105,
+      "type": "build"
+    },
+    {
+      "from": 105,
+      "to": 106,
+      "type": "drop"
+    },
+    {
+      "from": 106,
+      "to": 126,
+      "type": "grooveA2"
+    },
+    {
+      "from": 126,
+      "to": 127,
+      "type": "grooveA2"
+    },
+    {
+      "from": 127,
+      "to": 128,
+      "type": "drop"
+    },
+    {
+      "from": 128,
+      "to": 146,
+      "type": "grooveB"
+    },
+    {
+      "from": 146,
+      "to": 147,
+      "type": "grooveB"
+    },
+    {
+      "from": 147,
+      "to": 148,
+      "type": "drop"
+    },
+    {
+      "from": 148,
+      "to": 168,
+      "type": "grooveB"
+    },
+    {
+      "from": 168,
+      "to": 169,
+      "type": "build"
+    },
+    {
+      "from": 169,
+      "to": 170,
+      "type": "drop"
+    },
+    {
+      "from": 170,
+      "to": 189,
+      "type": "grooveA2"
+    },
+    {
+      "from": 189,
+      "to": 190,
+      "type": "grooveA2"
+    },
+    {
+      "from": 190,
+      "to": 191,
+      "type": "drop"
+    },
+    {
+      "from": 191,
+      "to": 212,
+      "type": "grooveA"
+    },
+    {
+      "from": 212,
+      "to": 213,
+      "type": "grooveA"
+    },
+    {
+      "from": 213,
+      "to": 214,
+      "type": "drop"
+    },
+    {
+      "from": 214,
+      "to": 235,
+      "type": "breakdown"
+    },
+    {
+      "from": 235,
+      "to": 236,
+      "type": "build"
+    },
+    {
+      "from": 236,
+      "to": 237,
+      "type": "drop"
+    },
+    {
+      "from": 237,
+      "to": 256,
+      "type": "grooveA"
+    },
+    {
+      "from": 256,
+      "to": 257,
+      "type": "grooveA"
+    },
+    {
+      "from": 257,
+      "to": 258,
+      "type": "drop"
+    },
+    {
+      "from": 258,
+      "to": 278,
+      "type": "grooveA"
+    },
+    {
+      "from": 278,
+      "to": 279,
+      "type": "grooveA"
+    },
+    {
+      "from": 279,
+      "to": 280,
+      "type": "drop"
+    },
+    {
+      "from": 280,
+      "to": 300,
+      "type": "grooveA"
+    },
+    {
+      "from": 300,
+      "to": 301,
+      "type": "build"
+    },
+    {
+      "from": 301,
+      "to": 302,
+      "type": "drop"
+    },
+    {
+      "from": 302,
+      "to": 321,
+      "type": "grooveA2"
+    },
+    {
+      "from": 321,
+      "to": 322,
+      "type": "grooveA2"
+    },
+    {
+      "from": 322,
+      "to": 323,
+      "type": "drop"
+    },
+    {
+      "from": 323,
+      "to": 342,
+      "type": "grooveA2"
+    },
+    {
+      "from": 342,
+      "to": 343,
+      "type": "grooveA2"
+    },
+    {
+      "from": 343,
+      "to": 344,
+      "type": "drop"
+    },
+    {
+      "from": 344,
+      "to": 364,
+      "type": "grooveA2"
+    },
+    {
+      "from": 364,
+      "to": 365,
+      "type": "build"
+    },
+    {
+      "from": 365,
+      "to": 378,
+      "type": "breakdown"
+    },
+    {
+      "from": 378,
+      "to": 380,
+      "type": "drop"
+    },
+    {
+      "from": 380,
+      "to": 381,
+      "type": "tail"
+    }
+  ]
+}
