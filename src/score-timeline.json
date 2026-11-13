@@ -1,0 +1,121 @@
+{
+  "fps": 30,
+  "bpm": 128,
+  "grid0": 0,
+  "overlap": 0,
+  "engage": 3.75,
+  "cutBars": [
+    0,
+    10,
+    19,
+    29,
+    39,
+    49,
+    61,
+    71,
+    81,
+    91,
+    102,
+    113,
+    125,
+    136,
+    146,
+    156,
+    167,
+    178
+  ],
+  "lastDur": 731,
+  "sections": [
+    {
+      "from": 0,
+      "to": 10,
+      "type": "intro"
+    },
+    {
+      "from": 10,
+      "to": 19,
+      "type": "grooveA"
+    },
+    {
+      "from": 19,
+      "to": 29,
+      "type": "grooveA2"
+    },
+    {
+      "from": 29,
+      "to": 39,
+      "type": "grooveB"
+    },
+    {
+      "from": 39,
+      "to": 49,
+      "type": "build"
+    },
+    {
+      "from": 49,
+      "to": 61,
+      "type": "drop"
+    },
+    {
+      "from": 61,
+      "to": 71,
+      "type": "grooveA"
+    },
+    {
+      "from": 71,
+      "to": 81,
+      "type": "breakdown"
+    },
+    {
+      "from": 81,
+      "to": 91,
+      "type": "drop"
+    },
+    {
+      "from": 91,
+      "to": 102,
+      "type": "grooveB"
+    },
+    {
+      "from": 102,
+      "to": 113,
+      "type": "grooveA2"
+    },
+    {
+      "from": 113,
+      "to": 125,
+      "type": "grooveB"
+    },
+    {
+      "from": 125,
+      "to": 136,
+      "type": "breakdown"
+    },
+    {
+      "from": 136,
+      "to": 146,
+      "type": "build"
+    },
+    {
+      "from": 146,
+      "to": 156,
+      "type": "drop"
+    },
+    {
+      "from": 156,
+      "to": 167,
+      "type": "grooveA"
+    },
+    {
+      "from": 167,
+      "to": 178,
+      "type": "grooveB"
+    },
+    {
+      "from": 178,
+      "to": 192,
+      "type": "drop"
+    }
+  ],
+  "total": 10744
+}

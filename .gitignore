@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+out/
+public/narration/
+public/score.wav
+public/master.wav
+public/voice.wav
+.remotion/
+
+public/qa/
