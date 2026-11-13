@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "snapshotId": "20261114-256fb42",
+  "releaseTag": "full-backup-20261114-256fb42",
+  "projectDirectory": "ai-video-1114-astra",
+  "sourceCommit": "256fb42c39cc3c6bd8111c3552f8b8c113fcc46c",
+  "archiveName": "ai-video-etf-intro-full-20261114.tar.gz",
+  "archiveBytes": 1215067765,
+  "archiveSha256": "81a38d73aeb78a6733c861bfba71ecfa3b2d8c1ef4fc965068125df1afc2deb0",
+  "partSize": 33554432,
+  "parts": [
+    {
+      "path": ".snapshot/part-000.bin",
+      "bytes": 33554432,
+      "sha256": "5b232b9862ce18a1954e45d0f4f385a1279d47b16abb4a489cacbfa6041a62a2"
+    },
+    {
+      "path": ".snapshot/part-001.bin",
+      "bytes": 33554432,
+      "sha256": "c7abe715ace3bf83e792d528736b4ae2caa35e21e6e7d65a6a734d35bd3d073d"
+    },
+    {
+      "path": ".snapshot/part-002.bin",
+      "bytes": 33554432,
+      "sha256": "604e4dbbec28aae9cd7c3026bc5f0948b3adff5454299fde0829490be0710d86"
+    },
+    {
+      "path": ".snapshot/part-003.bin",
+      "bytes": 33554432,
+      "sha256": "b69c1be40be86e6442915017291c7498d3b58978448cf6dc08c000a28d124e80"
+    },
+    {
+      "path": ".snapshot/part-004.bin",
+      "bytes": 33554432,
+      "sha256": "399101a90c965b1e2831163c186b5ad9b6ac9f5d68001d08af9a1b611c1c1177"
+    },
+    {
+      "path": ".snapshot/part-005.bin",
+      "bytes": 33554432,
+      "sha256": "a6e201759bbca2a306063f1392d998584283dbf139dc49417b2af16bcd3a1182"
+    },
+    {
+      "path": ".snapshot/part-006.bin",
+      "bytes": 33554432,
+      "sha256": "a6989a0c91df93e52bc26cd12a0236efa7c243b2c8514002a2df968f3b4311ec"
+    },
+    {
+      "path": ".snapshot/part-007.bin",
+      "bytes": 33554432,
+      "sha256": "5f0a24bb8675db4c8d6ce00ab1953a188895eb6444a47d70430111a4a16423e0"
+    },
+    {
+      "path": ".snapshot/part-008.bin",
+      "bytes": 33554432,
+      "sha256": "fad69770192058707343ac3a32b5eb1e2d591ae2a75cc2fefd96b80b3f080882"
+    },
+    {
+      "path": ".snapshot/part-009.bin",
+      "bytes": 33554432,
+      "sha256": "848d668da0d4f573fa8e7467074f5ab9a55af03ddcaaaf934da064292ee97d74"
+    },
+    {
+      "path": ".snapshot/part-010.bin",
+      "bytes": 33554432,
+      "sha256": "0453699832ff7ae9701a57ab248a71ff657fa03cb4c9bd5fc2f20eadb9215639"
+    },
+    {
+      "path": ".snapshot/part-011.bin",
+      "bytes": 33554432,
+      "sha256": "648a21797063c680112f451e6635947fa6b7fa4b9c8086a9207bba0c6e530397"
+    },
+    {
+      "path": ".snapshot/part-012.bin",
+      "bytes": 33554432,
+      "sha256": "ef07e6067fb1230a622583e9b6064829d32992af0dc086fe3c15d85223fff140"
+    },
+    {
+      "path": ".snapshot/part-013.bin",
+      "bytes": 33554432,
+      "sha256": "aacd27e8598c712a75bb7a7925456eef898783e618a3644db8c7aa6613a61af4"
+    },
+    {
+      "path": ".snapshot/part-014.bin",
+      "bytes": 33554432,
+      "sha256": "b050b5b6dedcc8c05ad1bd03e8eb973dd19f46e5b676ed5c592458d6475ae1cc"
+    },
+    {
+      "path": ".snapshot/part-015.bin",
+      "bytes": 33554432,
+      "sha256": "bc1e8fa74e3da716a4de51efd16cfa87392979e6e29da95882b9d40d27b1679b"
+    },
+    {
+      "path": ".snapshot/part-016.bin",
+      "bytes": 33554432,
+      "sha256": "54c53449612e28c1def643e4ccafef3352cf976e13414689db00515d6b920682"
+    },
+    {
+      "path": ".snapshot/part-017.bin",
+      "bytes": 33554432,
+      "sha256": "9a4bdd173e55c7151668f8e39a2cfe9a75f41ff34363c7d27c7c5e5211dadef5"
+    },
+    {
+      "path": ".snapshot/part-018.bin",
+      "bytes": 33554432,
+      "sha256": "5e4cc81aa50bb0368b7a5ab9ae13d91a656c377c31b36e24edbdf29083d46125"
+    },
+    {
+      "path": ".snapshot/part-019.bin",
+      "bytes": 33554432,
+      "sha256": "48f87d5c47735e0ff49e3f80b217e343bafedea69e91667759d0ccc251df2dfb"
+    },
+    {
+      "path": ".snapshot/part-020.bin",
+      "bytes": 33554432,
+      "sha256": "9a46313645c732db07b0fea5bec97079ddbcfb8363c75300cd26871c96ddd1d5"
+    },
+    {
+      "path": ".snapshot/part-021.bin",
+      "bytes": 33554432,
+      "sha256": "c3eb029e77eb07ffc278595c2c55ef67b0e16585a63ae46cd30fec386172ed34"
+    },
+    {
+      "path": ".snapshot/part-022.bin",
+      "bytes": 33554432,
+      "sha256": "3e8311c6fa5968f3e7af98d6b2a364a6a451bc4a000cff267cf19d242832d915"
+    },
+    {
+      "path": ".snapshot/part-023.bin",
+      "bytes": 33554432,
+      "sha256": "c646e82ebe524f41221761a88868405d6baf944f664e6d9c7cada8ebd554babf"
+    },
+    {
+      "path": ".snapshot/part-024.bin",
+      "bytes": 33554432,
+      "sha256": "63e5152037c7ad48030f5a95b23c47d61326ad6d4a9f3d13881c54d46f17f011"
+    },
+    {
+      "path": ".snapshot/part-025.bin",
+      "bytes": 33554432,
+      "sha256": "1fa0d31c8ee483f164c069dbbde70a6f92377ea25b21c8ee8d528d1194b3ce2b"
+    },
+    {
+      "path": ".snapshot/part-026.bin",
+      "bytes": 33554432,
+      "sha256": "a6b7efa35b381a68975e0751b5b1ca2a9186d6a53a039ff3bb57ea4d989da902"
+    },
+    {
+      "path": ".snapshot/part-027.bin",
+      "bytes": 33554432,
+      "sha256": "7f611b0c626b28e184d1e18527f0b1f4101fbc609f6f01d2e010445db8728198"
+    },
+    {
+      "path": ".snapshot/part-028.bin",
+      "bytes": 33554432,
+      "sha256": "657e4e308227cc8af3f659684924a5b53dbf3177d450852263e567316ede6dcc"
+    },
+    {
+      "path": ".snapshot/part-029.bin",
+      "bytes": 33554432,
+      "sha256": "d544e7c219c2259f88f12a128dd04a56549e3571358414935a2bce4ad9ad3a9d"
+    },
+    {
+      "path": ".snapshot/part-030.bin",
+      "bytes": 33554432,
+      "sha256": "a111e279e0dccadff52f73adc70e642de149e2c63690d71d8b180f10997f6292"
+    },
+    {
+      "path": ".snapshot/part-031.bin",
+      "bytes": 33554432,
+      "sha256": "deacde9894b04ab02f3ac006fab55b44b9bfdee18288fefa46d1a2b5c37b8b2a"
+    },
+    {
+      "path": ".snapshot/part-032.bin",
+      "bytes": 33554432,
+      "sha256": "f3090baf4b329ad58e4d38fa3be25ac41fbd8658876d1a9682fd0e559e2bafe1"
+    },
+    {
+      "path": ".snapshot/part-033.bin",
+      "bytes": 33554432,
+      "sha256": "7d80f7bc9106aef0f05c017f21b7e4dde917e76f3b4c5b70f541017f6881fd2c"
+    },
+    {
+      "path": ".snapshot/part-034.bin",
+      "bytes": 33554432,
+      "sha256": "e3ac998cfe6acb602fabc2c18380c08ac34165ac320d8359f439566cd8067ca7"
+    },
+    {
+      "path": ".snapshot/part-035.bin",
+      "bytes": 33554432,
+      "sha256": "9cfb7af1a878bdcb12bd5d52ac1d619074a93eae6bb3fc87de395261c081e9dd"
+    },
+    {
+      "path": ".snapshot/part-036.bin",
+      "bytes": 7108213,
+      "sha256": "e57c36787a5cd34e88c99eab0212be5ccfbdf61b6fbf5566c22bb059b4fec616"
+    }
+  ]
+}

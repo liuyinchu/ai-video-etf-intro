@@ -1,0 +1,27 @@
+name: Reconstruct and verify complete ETF backup
+on:
+  push:
+    branches:
+      - 'backup/full-*'
+    paths:
+      - '.snapshot/READY.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: etf-full-backup
+  cancel-in-progress: false
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the snapshot chunks
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Reconstruct, restore, verify and publish Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .backup/reconstruct-and-release.mjs
