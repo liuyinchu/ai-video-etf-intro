@@ -1,0 +1,10 @@
+{
+  "file": "publish/ETF_P1_P2_统一封面.png",
+  "width": 1672,
+  "height": 941,
+  "bytes": 2059312,
+  "sha256": "02600ae23011ed0607ef8faeba97f4727fd3ad06479b7863106c11274769db4b",
+  "method": "Built-in ImageGen",
+  "prompt": "封面提示词.txt",
+  "description": "发布文案.md"
+}

@@ -1,0 +1,18 @@
+Use case: ads-marketing.
+Create ONE finished premium Chinese educational video cover for a two-part ETF explainer. Landscape 16:9 composition, target 2048 x 1152 pixels. This is the unified cover for both P1 and P2, not two separate covers and not a collage of alternatives.
+
+Visual direction: cinematic, sophisticated financial-science editorial cover, consistent with a dark navy / electric mint / cool blue video design, with restrained amber-gold highlights. Exceptional crisp typography, striking dimensional lighting, calm visual hierarchy and high contrast for mobile thumbnails.
+
+Composition: the left 55 percent is a beautifully balanced typography field with generous dark negative space. Giant "ETF" is the primary focal point, in precise clean sans-serif lettering with subtle polished metal and translucent mint-glass bevels, readable instantly. Beneath it is a large, bold, extremely legible Chinese subtitle. On the right, a beautifully rendered translucent glass asset cube integrates a small luminous wireframe globe, an abstract equity/security card, a silver bond document and a modest solid gold bar. These represent stocks, bonds, and gold, arranged as one unified sculptural financial instrument. A thin luminous cyan ribbon with visible rises AND dips circles the structure, with a restrained red drawdown section; this is decorative, not a factual plot. Precise soft reflections, rim lighting, atmospheric depth, fine particles, no busy background. The artwork must feel like a polished science documentary cover rather than a trading promotion.
+
+Render ONLY the following exact readable text, with correct simplified Chinese:
+Large primary: "ETF"
+Large secondary: "从原理到图鉴"
+Small clear amber accent badge: "15只代表产品"
+Two aligned compact chapter strips near the lower left:
+"P1｜原理 · 收益 · 风险"
+"P2｜逐只解读 · 长期走势"
+Small but readable footer:
+"本视频仅科普，不构成任何投资建议。"
+
+All text is part of the finished cover. Keep all important words inside a 6 percent safe margin. Chinese text should use a modern bold Heiti-like sans-serif, not calligraphy. Make the main title and Chinese subtitle dominate, chapter labels secondary, disclaimer discreet. No percentages, no fabricated performance numbers, no return promises, no product recommendations, no real fund logos, no ticker-code list, no cryptocurrency symbols, no piles of cash, no people, no watermarks. Create a single coherent hero composition with editorial elegance and impressive 3D finish.
